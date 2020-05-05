@@ -100,7 +100,7 @@
 
 								<div class="form-group">
 									<label for="amount"><b>Amount</b></label> <input type="number"
-										class="form-control" id="amount" name="amount" placeholder="Your Amount">
+										class="form-control" id="amount" min="0" name="amount" placeholder="Your Amount">
 								</div>
 
 								<div class="form-group">
@@ -118,7 +118,7 @@
 
 								<div class="form-group">
 									<label for="account_num"><b>Account Number</b></label> <input
-										type="number" class="form-control" id="account_num" name="account_num"
+										type="number" min = "0" class="form-control" id="account_num" name="account_num"
 										placeholder=" Enter Your Account Number">
 								</div>
 								<div id="alertSuccess" class="text-success"></div>
