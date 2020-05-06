@@ -89,7 +89,8 @@
 								<div class="form-group">
 									<label for="payment_method"><b>Payment Method</b></label>
 									<div class="form-group">
-										<select class="form-control" id="payment_method" name="payment_method"> 
+										<select class="form-control" id="payment_method"
+											name="payment_method">
 											<option value="0"></option>
 											<option>Master-Cards</option>
 											<option>Visa-Cards</option>
@@ -100,7 +101,8 @@
 
 								<div class="form-group">
 									<label for="amount"><b>Amount</b></label> <input type="number"
-										class="form-control" id="amount" min="0" name="amount" placeholder="Your Amount">
+										class="form-control" id="amount" min="0" name="amount"
+										placeholder="Your Amount">
 								</div>
 
 								<div class="form-group">
@@ -112,14 +114,14 @@
 
 								<div class="form-group">
 									<label for="bank_name"><b>Bank Name </b></label> <input
-										type="text" class="form-control" id="bank_name" name="bank_name"
-										placeholder="Your Payment Bank">
+										type="text" class="form-control" id="bank_name"
+										name="bank_name" placeholder="Your Payment Bank">
 								</div>
 
 								<div class="form-group">
 									<label for="account_num"><b>Account Number</b></label> <input
-										type="number" min = "0" class="form-control" id="account_num" name="account_num"
-										placeholder=" Enter Your Account Number">
+										type="number" min="0" class="form-control" id="account_num"
+										name="account_num" placeholder=" Enter Your Account Number">
 								</div>
 								<div id="alertSuccess" class="text-success"></div>
 								<div id="alertError" class="text-danger"></div>
@@ -135,48 +137,6 @@
 				</div>
 				<!-- /.modal-dialog -->
 			</div>
-
-
-
-			<div class="modal fade" id="delete" tabindex="-1" role="dialog"
-				aria-labelledby="edit" aria-hidden="true">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal"
-								aria-hidden="true">
-								<i class="fas fa-window-close"></i>
-							</button>
-							<h4 class="modal-title custom_align" id="Heading">Delete
-								this entry</h4>
-						</div>
-						<div class="modal-body">
-
-							<div class="alert alert-danger">
-								<span class="glyphicon glyphicon-warning-sign"></span> Are you
-								sure you want to delete this Record?
-							</div>
-
-						</div>
-						<div class="modal-footer ">
-							<button type="button" class="btn btn-success">
-								<span class="glyphicon glyphicon-ok-sign"></span>Â Yes
-							</button>
-							<button type="button" class="btn btn-default"
-								data-dismiss="modal">
-								<span class="glyphicon glyphicon-remove"></span>Â No
-							</button>
-						</div>
-					</div>
-
-				</div>
-
-			</div>
-
-
-
-
-
 
 			<script
 				src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
